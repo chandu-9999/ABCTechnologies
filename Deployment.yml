@@ -13,7 +13,7 @@ spec:
        name: abc-application
    spec:
      containers:
-       - image: chandu-9999/abc-technologies
+       - image: chandu9999/abc-technologies
          name: app
          ports:
          - name: tcpport

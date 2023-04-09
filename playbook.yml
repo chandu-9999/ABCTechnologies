@@ -6,7 +6,7 @@
         build:
           path: /var/lib/jenkins/workspace/task4/
           dockerfile: Dockerfile
-        name: "chandu-9999/abc-technologies"
+        name: "chandu9999/abc-technologies"
         push: true
         source: build
       register: out
@@ -15,7 +15,7 @@
     - name: Start a container
       community.docker.docker_container:
         name: abc-application
-        image: "chandu-9999/abc-technologies"
+        image: "chandu9999/abc-technologies"
         state: started
         ports:
           - 8081:8080
