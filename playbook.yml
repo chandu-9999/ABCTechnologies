@@ -23,7 +23,7 @@
     - debug:
         var: out
     - name: Create a Deployment by reading the definition from a local file
-      command: sudo kubectl apply -f /var/lib/jenkins/workspace/task4/deployment.yml
+      command: sudo kubectl apply -f /var/lib/jenkins/workspace/task-4/ABCTechnologies/deployment.yml
       register: out
     - debug:
         var: out
